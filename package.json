@@ -1,0 +1,22 @@
+{
+  "name": "page_animation_web",
+  "version": "1.0.0",
+  "description": "page_transition",
+  "main": "src/js/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Christiano0407/page_Animation_Web.git"
+  },
+  "keywords": [
+    "javascript"
+  ],
+  "author": "Chris04",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Christiano0407/page_Animation_Web/issues"
+  },
+  "homepage": "https://github.com/Christiano0407/page_Animation_Web#readme"
+}

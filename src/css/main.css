@@ -33,11 +33,45 @@ body {
 }
 
 //*==Project==*/
+.header {
+}
 .nav {
   display: grid;
   grid-template-columns: 10% 1fr 1fr 10%;
+  min-height: 10vh;
+  color: #fff;
+  align-items: center;
 }
-
+.logo {
+  grid-column: 2/3;
+  font-size: 2.4rem;
+  color: #fff;
+  font-weight: 900;
+}
+.burger {
+  font-size: 2rem;
+  justify-self: end;
+  cursor: pointer;
+}
+.burger:active {
+  transform: scale(0.9);
+}
+.section_hero {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 80vh;
+}
+.hero {
+  height: 60%;
+  width: 100%;
+}
+.hero .hero-img {
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+  object-fit: cover;
+}
 /*Slider*/
 .slider {
   position: absolute;
@@ -46,5 +80,15 @@ body {
   left: 0;
   width: 100%;
   height: 100vh;
-  background: linear-gradient(to left, rgb(101, 3, 131), rgb(8, 224, 224));
+  background-color: #0093e9;
+  background-image: linear-gradient(160deg, #0093e9 0%, #80d0c7 100%);
+}
+.headline {
+  position: absolute;
+  top: 60%;
+  left: 5%;
+  font-size: 50px;
+  transform: translate(-200%, 70%);
+  font-weight: 900;
+  color: #fff;
 }

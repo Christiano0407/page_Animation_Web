@@ -65,12 +65,25 @@ body {
 .hero {
   height: 60%;
   width: 100%;
+  position: relative;
 }
 .hero .hero-img {
   width: 100%;
   height: 100%;
   background-size: cover;
   object-fit: cover;
+}
+
+/*====== Clave Transition =>*/
+.hero::after {
+  content: " ";
+  background-color: #000;
+  width: 100%;
+  height: 100vh;
+  position: absolute;
+  left: 0;
+  top: 0;
+  opacity: 0.3;
 }
 /*Slider*/
 .slider {
@@ -88,7 +101,8 @@ body {
   top: 60%;
   left: 5%;
   font-size: 50px;
-  transform: translate(-200%, 70%);
+  transform: translate(-10%, 70%);
   font-weight: 900;
   color: #fff;
+  z-index: 3;
 }

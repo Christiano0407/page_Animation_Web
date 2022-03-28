@@ -18,9 +18,9 @@ Create Page Animation Web with Javascript Vanilla and GSAP (Animation).
 
 > Screen Shot Final Project
 
-![]("../../src/assets/images/travelPro01.png");
+![]("../../src/assets/images/travelPro01.png")
 
-![]("../../src/assets/images/TravelPro02.png");
+![]("../../src/assets/images/TravelPro02.png")
 
 ## MIT License
 
